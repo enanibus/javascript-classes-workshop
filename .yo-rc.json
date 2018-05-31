@@ -1,0 +1,9 @@
+{
+  "generator-santander": {
+    "projectConfig": {
+      "appname": "javascript-classes-workshop",
+      "namespace": "default-namespace",
+      "gitssh": "git@github.com:Alexis01/javascript-classes-workshop.git"
+    }
+  }
+}

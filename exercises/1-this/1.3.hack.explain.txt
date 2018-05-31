@@ -1,0 +1,3 @@
+Como vemos resolvemos el problema, pero simplemente ignoramos el problema, no lo resolvemos. 
+Simplemente volvemos al enfoque léxico del "this".
+Para hacer referencia a this, necesitamos un objeto al que hacer referencia.

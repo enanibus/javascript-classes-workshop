@@ -1,0 +1,8 @@
+Como vemos foo.count sigue siendo 0, el problema es interpretar literalmente el this.
+Cuando hacemos foo.count = 0, se está creando una propiedad dentro del Objecto foo,
+pero this.foo no apunta a dicha propiedad, aunque los nombres sean los mismos,
+por lo tanto los objetos raiz no son los mismos.
+Entonces te preguntarás que estoy incrementando en foo, más adelante profundizaremos
+pero lo que estamos incrementando es la variable globalmente.
+
+Entonces como podríamos resolver el problema
