@@ -1,0 +1,21 @@
+Lo primero que debe tener en cuenta, si aún no lo sabía, 
+es que las variables declaradas en el ámbito global, como var a = 2, 
+son sinónimos de las propiedades de objeto global del mismo nombre. 
+No son copias el uno del otro, son el uno para el otro. 
+Piense en ello como dos caras de la misma moneda.
+
+En segundo lugar, vemos que cuando se llama a foo (), 
+this.a se resuelve en nuestra variable global a. 
+¿Por qué? Porque en este caso,
+ el enlace predeterminado para esto se aplica a la llamada a la función, 
+ y así lo señala en el objeto global.
+
+¿Cómo sabemos que la regla de enlace predeterminada se aplica aquí? 
+Examinamos el sitio de llamada para ver cómo se llama a foo (). 
+En nuestro fragmento, se llama a foo () con una referencia de función sin decorar. 
+Ninguna de las demás reglas que demostraremos se aplicará aquí, 
+por lo que se aplica el enlace predeterminado.
+
+Si el modo estricto está en vigor, 
+el objeto global no es elegible para el enlace predeterminado, 
+por lo que este se establece en indefinido.

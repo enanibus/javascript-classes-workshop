@@ -65,6 +65,33 @@
 --
 ### ENTONCES QUE ES THIS?
 Hasta ahora hemos visto varios conceptos de lo que no es el "this".
+Sin embargo hemos visto que "this" es un enlace.
+### CALL-SITE
+La posición donde la función es llamada (no declarada).
+Muchas veces encontrar el sitio de la llamada es tedioso (patrones lo ocultan).
+Por lo que nos interesa el call-stack. (sitio previo a la invocación).
+--
+### Nada más que reglas
+Al inspeccionar el sitio de las llamadas(call-stack) debemos debemos determinar cual de las 4 reglas se aplica, para saber el sitio de la llamada.
+Verermos cada regla.
+--
+### DEFAULT BINDING
+* Más común.
+* Invocación de función independiente.
+* Si ninguna está presente esta se aplica.
+* Ejemplo: 1.9.js
+* Modo stricto "use strict"
+--
+### IMPLICIT BINDING
+* El sitio de llamada tiene contexto?
+* aka objeto propietario, o que contiene
+* Ejemplo: 1.10.js
+* Solo el nivel superior/último de una cadena de referencia de propiedad del objeto es importante para el sitio de llamada. Ejemplo: 1.11.js
+--
+### IMPLICITLY LOST
+* Una de las frustraciones más comunes que crea "this" enlace es cuando una función implícitamente unida pierde ese enlace.
+* Lo que normalmente significa que vuelve a la vinculación predeterminada.
+* Ya sea del objeto global o indefinido, dependiendo del modo estricto.
 --
 ### THIS
 
