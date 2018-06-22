@@ -1,4 +1,4 @@
-<center>Instancias y envio de mensajes</center>
+### Instancias y envio de mensajes
 
 * JavaScript es un lenguaje OOP con una implementación basada en prototipos.
 * Molde objetos.

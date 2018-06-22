@@ -1,5 +1,5 @@
 ## Syntax Sugar
-* Destrucción de objetos { vars } = config; (4)
+* Destrucción de objetos { vars } = config; (3)
     * Problema: si tenemos que extraer varios elementos del objeto entonces tendremos un path muy extenso. 
     * Dieta: Ir definiendo uno a uno los valores necesarios
 * Resto del objeto { a,b,...rest} = config. 

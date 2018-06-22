@@ -1,4 +1,4 @@
-## Herencia
+## Método
 
 * Métodos estáticos. Se usan como utilidades. (7)
 * Getters and Setters. (8)

@@ -1,6 +1,7 @@
 # Ejercicios
 
 * Crear objetos usando la función Object
+* Listar sus propiedades
 * Crear objetos usando notación literal
 * Crear objetos usando el constructor de objetos y prototipos
 * Agregar propiedades a cada tipo de objeto
