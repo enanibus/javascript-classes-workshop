@@ -214,7 +214,7 @@ something = new MyClass(..);
 * No se puede sobrescribir.
 * No es enumerable. 
 * No es configurable.
-
+* Que ocurre cuando se agrea una propiedad a un object? 6.obj.proto
 
 
 --
@@ -240,6 +240,7 @@ something = new MyClass(..);
 # Ejercicios
 
 * Crear objetos usando la función Object
+* Listar sus propiedades
 * Crear objetos usando notación literal
 * Crear objetos usando el constructor de objetos y prototipos
 * Agregar propiedades a cada tipo de objeto
